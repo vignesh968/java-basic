@@ -1,0 +1,10 @@
+relational operator
+
+public class Main
+{
+	public static void main(String[] args) {
+	int a=45;
+	int b=467;
+	System.out.println(a>b);
+	}
+}
