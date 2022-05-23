@@ -1,0 +1,22 @@
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.print("enter a seconds");
+    int sec=sc.nextInt();
+    int h,m,s;
+    h=sec/3600;
+    sec=sec%3600;
+    m=sec/60;
+    s=sec%60;
+    System.out.println(h+"hour "+m+" mintues"+s+" seconds");
+	}
+}
+/*
+enter a seconds
+4326
+1 hour 12 minutes 6 seconds
+*/
