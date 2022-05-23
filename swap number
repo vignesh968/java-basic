@@ -14,7 +14,7 @@ public class Swapnumber {
 		num1=num1-num2;
 		num2=num1+num2;
 		num1=num2-num1;
-		System.out.println("num1="+num1+'\n'+"num2"+num2);
+		System.out.println("num1="+num1+'\n'+"num2="+num2);
 	}
 }
 
@@ -22,7 +22,8 @@ public class Swapnumber {
 output
 enter a number 1
 1232
-enter a number 223
+enter a number 2
+23
 num1=23
-num21232
+num2=1232
 */
