@@ -1,0 +1,15 @@
+
+import java.util.*;
+public class Main {
+    public static void main(String []args) {
+        Scanner sc=new Scanner(System.in);
+        //interest = (principalAmount * rate * time) / 100;
+        double interest;
+        double principalAmount=sc.nextInt();
+        double rate=sc.nextInt();
+        double time=sc.nextInt();
+        interest=(principalAmount*rate*time)/100;
+        System.out.println(interest);
+        
+    }
+}
