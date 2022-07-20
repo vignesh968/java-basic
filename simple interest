@@ -5,9 +5,9 @@ public class Main {
         Scanner sc=new Scanner(System.in);
         //interest = (principalAmount * rate * time) / 100;
         double interest;
-        double principalAmount=sc.nextInt();
-        double rate=sc.nextInt();
-        double time=sc.nextInt();
+        double principalAmount=sc.nextDouble();
+        double rate=sc.nextDouble();
+        double time=sc.nextDouble();
         interest=(principalAmount*rate*time)/100;
         System.out.println(interest);
         
