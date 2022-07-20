@@ -1,0 +1,21 @@
+
+import java.util.*;
+public class Main {
+    public static void main(String []args) {
+        Scanner sc=new Scanner(System.in);
+        char mini=sc.next().charAt(0);
+
+        char max=sc.next().charAt(0);
+        for(char i=mini;i<=max;i++)
+        {
+            System.out.print(i+"="+(int)i+" ");
+        }
+        System.out.println();
+       char a= Character.toUpperCase(mini);
+        char b=Character.toUpperCase(max);
+         for(char i=a;i<=b;i++)
+        {
+            System.out.print(i+"="+(int)i+" ");
+        }
+    }
+}
