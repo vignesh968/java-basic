@@ -1,0 +1,16 @@
+
+import java.util.*;
+public class Main {
+    public static void main(String []args) {
+        Scanner sc=new Scanner(System.in);
+        //A = P*(1 + r/n)^(n*t)
+        double A;
+        double principalAmount=sc.nextDouble();
+        double r=sc.nextDouble();
+        double n=sc.nextDouble();
+        double t=sc.nextDouble();
+    A=Math.pow(principalAmount*(1+r/n),(n*t));
+        System.out.println(A);
+        
+    }
+}
