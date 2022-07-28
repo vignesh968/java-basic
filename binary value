@@ -1,0 +1,19 @@
+
+public class Main
+{
+	public static void main(String[] args) {
+	  int j=25;
+	  int r,sum=0,f=1;
+	  do{
+	      r=j%2;
+	      sum+=r*f;
+	      j=j/2;
+	      f*=10;
+	  }
+	  while (j!=0);
+	  System.out.println("sum="+sum);
+	
+	  }
+
+	    
+}
